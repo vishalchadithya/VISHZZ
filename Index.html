@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VISHZZ | Wear The Future</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1 class="logo">VISHZZ</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Wear The Future.</h2>
+    <p>Be VISHZZ.</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+</section>
+
+<section class="products" id="products">
+    <h2>Featured Collection</h2>
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Black Tee">
+            <h3>Black Street Tee</h3>
+            <p>$25</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="VISHZZ Hoodie">
+            <h3>VISHZZ Hoodie</h3>
+            <p>$45</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Urban Jacket">
+            <h3>Urban Jacket</h3>
+            <p>$60</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About VISHZZ</h2>
+    <p>VISHZZ is a modern streetwear brand built for bold creators. 
+    We design premium fashion that speaks confidence, attitude, and future vision.</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 VISHZZ. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
